@@ -104,3 +104,11 @@ ADD dag/full-R23-0000000000000000 /root/.ethash/full-R23-0000000000000000
 ```
 
 to the `monitored-geth-client` Dockerfile.
+
+### 3 Server Authentication
+
+On the server, you can create a new user with:
+
+```
+sudo htpasswd -c /etc/nginx/.htpasswd somename
+```
